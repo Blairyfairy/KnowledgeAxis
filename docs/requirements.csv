@@ -1,0 +1,10 @@
+capability,area,evidence,status
+"4.1","Data inventory","JSON/CSV graph inventory with unique IDs","Implemented in dataset; automated discovery absent"
+"4.2","Governance","Source and status fields; publication policy","Partial; no enterprise governance service"
+"4.3","Data tagging","Public portfolio classification and provenance","Partial; tags are metadata, not authorization"
+"4.4","Monitoring","Import output and validation tests","Partial; database activity monitoring not implemented"
+"4.5","Encryption","Encrypted EBS; SSM tunnel; loopback ports","Partial; no application TLS or rights management"
+"4.6","Loss prevention","Public-only export policy","Manual policy; no DLP engine"
+"4.7","Access control","No inbound security-group rules; database authentication","Partial; no attribute-based authorization"
+"7.1","Logging","Deployment and ingestion logs","Partial; no centralized security telemetry"
+"7.2","SIEM","Proposed centralized log collection","Not implemented"
